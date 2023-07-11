@@ -7,6 +7,6 @@ Offical Mod review for the Random Mod
 [![Alt text](https://img.youtube.com/vi/rK8y4ghOhuY/mq2.jpg)](https://www.youtube.com/watch?v=rK8y4ghOhuY)
 
 ___________________________________________________________________________________________________________________________________________________________________________________
-Hey guys Canadian Gamer here, this is the Random Mod, which is right now in 1.12.2. Right now I am recoding everything in 1.16.4. ( maybe do a fabric version as well.)  
+Hey guys Canadian Gamer here, this is the Random Mod, which is right now in 1.12.2. Right now I am recoding everything in fabric.
 This will take some time to recode everything so please be patient! 
 You can download here on github or at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/random-mod-by-easycanadiangamer)!
