@@ -1,5 +1,7 @@
 package net.canadiangamer.randommod;
 
+import net.canadiangamer.randommod.block.ModBlocks;
+import net.canadiangamer.randommod.item.ModItemGroups;
 import net.canadiangamer.randommod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -12,8 +14,9 @@ public class RandomMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

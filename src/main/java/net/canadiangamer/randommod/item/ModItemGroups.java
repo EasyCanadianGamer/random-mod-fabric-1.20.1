@@ -1,11 +1,13 @@
 package net.canadiangamer.randommod.item;
 
+
+
+
 import net.canadiangamer.randommod.RandomMod;
 import net.canadiangamer.randommod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -18,10 +20,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RANDOM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RANDOM_INGOT);
 
-                        entries.add(Items.DIAMOND);
 
                         entries.add(ModBlocks.RANDOM_BLOCK);
-
 
 
                     }).build());
@@ -29,6 +29,5 @@ public class ModItemGroups {
 
     public static void registerItemGroups() {
         RandomMod.LOGGER.info("Registering Item Groups for " + RandomMod.MOD_ID);
-
     }
 }
