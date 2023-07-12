@@ -1,18 +1,17 @@
 {
 	"schemaVersion": 1,
 	"id": "randommod",
-	"version": "${version}",
+	"version": "1.0.1 Beta",
 	"name": "Random Mod",
 	"description": "A Random Mod that adds Random things",
 	"authors": [
 		"Canadian Gamer"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/mod/randommod",
+		"sources": "https://github.com/EasyCanadianGamer/random-mod-template-1.20.1"
 	},
 	"license": "MIT",
-	"icon": "assets/rm/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

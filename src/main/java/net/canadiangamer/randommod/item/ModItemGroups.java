@@ -22,6 +22,7 @@ public class ModItemGroups {
 
 
                         entries.add(ModBlocks.RANDOM_BLOCK);
+                        entries.add(ModBlocks.RANDOM_ORE);
 
 
                     }).build());

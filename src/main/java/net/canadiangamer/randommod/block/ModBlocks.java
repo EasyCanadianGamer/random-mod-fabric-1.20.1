@@ -18,6 +18,8 @@ import java.util.Random;
 public class ModBlocks {
     public static final Block RANDOM_BLOCK = registerBlock("random_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL).luminance(state -> 15)));
+    public static final Block RANDOM_ORE = registerBlock("random_ore",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_ORE).sounds(BlockSoundGroup.STONE)));
 
     private static Block registerBlock( String name, Block block) {
         registerBlockItem(name, block);
