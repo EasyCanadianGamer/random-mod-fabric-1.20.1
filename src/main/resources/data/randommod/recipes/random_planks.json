@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "randommod:random_log"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "randommod:random_planks"
+  }
+}
