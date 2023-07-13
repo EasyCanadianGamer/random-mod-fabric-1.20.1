@@ -1,8 +1,11 @@
 {
   "item.randommod.random_ingot": "Random Ingot",
 
-  "block.randommod.random_block" : "Random Block",
+  "block.randommod.random_block" : "Block of Random",
   "block.randommod.random_ore" : "Random Ore",
+  "block.randommod.random_planks" : "Random Planks",
+  "block.randommod.random_leaves" : "Random Leaves",
+  "block.randommod.random_log" : "Random Log",
 
 
 
