@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PillarBlock;
+import net.minecraft.block.SaplingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -28,6 +29,8 @@ public class ModBlocks {
 
     public static final Block RANDOM_LOG = registerBlock("random_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()));
+    public static final Block RANDOM_SAPLING = registerBlock("random_sapling",
+            new SaplingBlock( null, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
     private static Block registerBlock( String name, Block block) {
         registerBlockItem(name, block);

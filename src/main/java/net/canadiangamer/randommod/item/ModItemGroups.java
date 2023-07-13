@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RANDOM_PLANKS);
                         entries.add(ModBlocks.RANDOM_LOG);
                         entries.add(ModBlocks.RANDOM_LEAVES);
+                        entries.add(ModBlocks.RANDOM_SAPLING);
 
 
                     }).build());
