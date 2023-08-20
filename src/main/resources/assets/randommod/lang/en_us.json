@@ -1,5 +1,7 @@
 {
   "item.randommod.random_ingot": "Random Ingot",
+  "item.randommod.random_meat_cooked": "Cooked Random Meat",
+  "item.randommod.random_meat_raw": "Raw Random Meat",
 
   "block.randommod.random_block" : "Block of Random",
   "block.randommod.random_ore" : "Random Ore",

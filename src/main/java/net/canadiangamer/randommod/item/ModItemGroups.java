@@ -19,7 +19,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.random_ingot"))
                     .icon(() -> new ItemStack(ModItems.RANDOM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RANDOM_INGOT);
-
+                        entries.add(ModItems.RANDOM_MEAT_COOKED);
+                        entries.add(ModItems.RANDOM_MEAT_RAW);
 
                         entries.add(ModBlocks.RANDOM_BLOCK);
                         entries.add(ModBlocks.RANDOM_ORE);
