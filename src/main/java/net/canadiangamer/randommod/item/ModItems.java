@@ -28,6 +28,16 @@ public class ModItems {
     public static final Item RANDOMITE_HOE = registerItem("randomite_hoe",
             new HoeItem(ModToolMaterial.RANDOMITE, 0, 0f, new FabricItemSettings()));
 
+
+
+    public static final Item RANDOMITE_HELMET = registerItem("randomite_helmet",
+            new ArmorItem(ModArmorMaterials.RANDOMITE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item RANDOMITE_CHESTPLATE = registerItem("randomite_chestplate",
+            new ArmorItem(ModArmorMaterials.RANDOMITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item RANDOMITE_LEGGINGS = registerItem("randomite_leggings",
+            new ArmorItem(ModArmorMaterials.RANDOMITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item RANDOMITE_BOOTS = registerItem("randomite_boots",
+            new ArmorItem(ModArmorMaterials.RANDOMITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
         entries.add(RANDOMITE_INGOT);
     }

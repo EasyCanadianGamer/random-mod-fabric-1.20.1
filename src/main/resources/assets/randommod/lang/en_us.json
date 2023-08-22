@@ -8,7 +8,12 @@
   "item.randommod.randomite_axe": "Randomite Axe",
   "item.randommod.randomite_shovel": "Randomite Shovel",
   "item.randommod.randomite_sword": "Randomite Sword",
-  "item.randommod.randomite_hoe": "Randomite Hoe",
+  "item.randommod.randomite_hoe": "Randomite   Hoe",
+
+  "item.randommod.randomite_helmet": "Randomite Helmet",
+  "item.randommod.randomite_chestplate": "Randomite Chestplate",
+  "item.randommod.randomite_leggings": "Randomite Leggings",
+  "item.randommod.randomite_boots": "Randomite Boots",
 
   "block.randommod.randomite_block" : "Block of Random",
   "block.randommod.randomite_ore" : "Randomite Ore",

@@ -29,6 +29,11 @@ public class ModItemGroups {
                         entries.add(ModItems.RANDOMITE_HOE);
                         entries.add(ModItems.RANDOMITE_SHOVEL);
 
+                        entries.add(ModItems.RANDOMITE_HELMET);
+                        entries.add(ModItems.RANDOMITE_CHESTPLATE);
+                        entries.add(ModItems.RANDOMITE_LEGGINGS);
+                        entries.add(ModItems.RANDOMITE_BOOTS);
+
                         entries.add(ModBlocks.RANDOMITE_BLOCK);
                         entries.add(ModBlocks.RANDOMITE_ORE);
                         entries.add(ModBlocks.RANDOM_PLANKS);
