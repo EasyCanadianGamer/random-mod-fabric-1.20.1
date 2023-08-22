@@ -21,9 +21,12 @@ public class ModConfiguredFeatures {
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
+        RuleTest deepslateReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> overworldRandomOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RANDOM_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RANDOMITE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.DEEPSLATE_RANDOMITE_ORE.getDefaultState()));
+
 
 
         register(context, RANDOM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRandomOres, 12));

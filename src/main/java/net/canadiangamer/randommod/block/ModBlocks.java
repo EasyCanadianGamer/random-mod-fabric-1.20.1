@@ -16,9 +16,12 @@ import org.apache.commons.io.filefilter.RegexFileFilter;
 import java.util.Random;
 
 public class ModBlocks {
-    public static final Block RANDOM_BLOCK = registerBlock("random_block",
+    public static final Block RANDOMITE_BLOCK = registerBlock("randomite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL).luminance(state -> 15).requiresTool()));
-    public static final Block RANDOM_ORE = registerBlock("random_ore",
+    public static final Block RANDOMITE_ORE = registerBlock("randomite_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
+
+    public static final Block DEEPSLATE_RANDOMITE_ORE = registerBlock("deepslate_randomite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
     public static final Block RANDOM_PLANKS = registerBlock("random_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));

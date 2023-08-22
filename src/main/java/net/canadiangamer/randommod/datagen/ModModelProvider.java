@@ -16,15 +16,17 @@ public class ModModelProvider  extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RANDOM_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RANDOM_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RANDOMITE_BLOCK);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RANDOMITE_ORE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
+
 
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
-        itemModelGenerator.register(ModItems.RANDOM_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RANDOMITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANDOM_MEAT_COOKED, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANDOM_MEAT_RAW, Models.GENERATED);
 

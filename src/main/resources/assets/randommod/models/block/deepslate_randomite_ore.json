@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "randommod:block/random_block"
+    "all": "randommod:block/deepslate_randomite_ore"
   }
 }

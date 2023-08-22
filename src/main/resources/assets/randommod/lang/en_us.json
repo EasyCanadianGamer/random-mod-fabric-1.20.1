@@ -1,10 +1,18 @@
 {
-  "item.randommod.random_ingot": "Random Ingot",
+  "item.randommod.randomite_ingot": "Randomite Ingot",
+
   "item.randommod.random_meat_cooked": "Cooked Random Meat",
   "item.randommod.random_meat_raw": "Raw Random Meat",
 
-  "block.randommod.random_block" : "Block of Random",
-  "block.randommod.random_ore" : "Random Ore",
+  "item.randommod.randomite_pickaxe": "Randomite Pickaxe",
+  "item.randommod.randomite_axe": "Randomite Axe",
+  "item.randommod.randomite_shovel": "Randomite Shovel",
+  "item.randommod.randomite_sword": "Randomite Sword",
+  "item.randommod.randomite_hoe": "Randomite Hoe",
+
+  "block.randommod.randomite_block" : "Block of Random",
+  "block.randommod.randomite_ore" : "Randomite Ore",
+  "block.randommod.deepslate_randomite_ore": "Deepslate Randomite Ore",
   "block.randommod.random_planks" : "Random Planks",
   "block.randommod.random_leaves" : "Random Leaves",
   "block.randommod.random_log" : "Random Log",

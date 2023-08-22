@@ -19,8 +19,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 
-        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RANDOM_INGOT, RecipeCategory.DECORATIONS,
-                ModBlocks.RANDOM_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.RANDOMITE_INGOT, RecipeCategory.DECORATIONS,
+                ModBlocks.RANDOMITE_BLOCK);
 
     }
 }

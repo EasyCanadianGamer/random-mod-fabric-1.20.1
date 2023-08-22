@@ -3,9 +3,9 @@
   "category": "misc",
   "cookingtime": 200,
   "experience": 0.7,
-  "group": "random_ingot",
+  "group": "randomite_ingot",
   "ingredient": {
-    "item": "randommod:random_ore"
+    "item": "randommod:deepslate_randomite_ore"
   },
-  "result": "randommod:random_ingot"
+  "result": "randommod:randomite_ingot"
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "randommod:item/random_ingot"
+    "layer0": "randommod:item/randomite_ingot"
   }
 }

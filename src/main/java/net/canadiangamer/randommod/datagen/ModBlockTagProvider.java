@@ -18,16 +18,21 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.RANDOM_BLOCK)
-                .add(ModBlocks.RANDOM_ORE);
+                .add(ModBlocks.RANDOMITE_BLOCK)
+                .add(ModBlocks.RANDOMITE_ORE)
+                .add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RANDOM_BLOCK)
-                .add(ModBlocks.RANDOM_ORE);
+                .add(ModBlocks.RANDOMITE_BLOCK)
+                .add(ModBlocks.RANDOMITE_ORE)
+                .add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
 
-        getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.RANDOM_BLOCK)
-                .add(ModBlocks.RANDOM_ORE);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.RANDOMITE_BLOCK)
+                .add(ModBlocks.RANDOMITE_ORE)
+                .add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
+
 
 
 

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "randommod:random_block"
+          "name": "randommod:randomite_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "randommod:blocks/random_block"
+  "random_sequence": "randommod:blocks/randomite_block"
 }
