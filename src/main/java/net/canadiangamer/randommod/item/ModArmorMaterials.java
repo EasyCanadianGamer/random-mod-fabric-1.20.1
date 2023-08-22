@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    RANDOMITE("randomite_ingot", 100, new int[] { 3, 8, 6, 3 }, 19,
+    RANDOMITE("randomite_ingot", 200, new int[] { 9, 24, 18, 9 }, 19,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 20f, 0.5f, () -> Ingredient.ofItems(ModItems.RANDOMITE_INGOT));
 
     private final String name;

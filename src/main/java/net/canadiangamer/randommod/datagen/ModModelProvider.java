@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider  extends FabricModelProvider {
 
@@ -29,6 +30,20 @@ public class ModModelProvider  extends FabricModelProvider {
         itemModelGenerator.register(ModItems.RANDOMITE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANDOM_MEAT_COOKED, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANDOM_MEAT_RAW, Models.GENERATED);
+
+
+
+
+        itemModelGenerator.register(ModItems.RANDOMITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RANDOMITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RANDOMITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RANDOMITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.RANDOMITE_HOE, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RANDOMITE_HELMET));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RANDOMITE_CHESTPLATE));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RANDOMITE_LEGGINGS));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.RANDOMITE_BOOTS));
 
 
     }
