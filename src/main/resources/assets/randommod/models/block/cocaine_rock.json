@@ -1,0 +1,6 @@
+{
+  "parent": "block/carpet",
+  "textures": {
+    "wool": "randommod:block/cocaine_rock"
+  }
+}

@@ -22,6 +22,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.RANDOM_MEAT_COOKED);
                         entries.add(ModItems.RANDOM_MEAT_RAW);
+                        entries.add(ModItems.COCAINE);
 
                         entries.add(ModItems.RANDOMITE_SWORD);
                         entries.add(ModItems.RANDOMITE_AXE);
@@ -41,6 +42,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RANDOM_LEAVES);
                         entries.add(ModBlocks.RANDOM_SAPLING);
                         entries.add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
+                        entries.add(ModBlocks.COCAINE_ROCK);
 
 
                     }).build());

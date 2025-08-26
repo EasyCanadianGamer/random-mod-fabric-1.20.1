@@ -21,6 +21,9 @@ public class ModBlocks {
     public static final Block RANDOMITE_ORE = registerBlock("randomite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
 
+    public static final Block COCAINE_ROCK = registerBlock("cocaine_rock",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_TULIP).sounds(BlockSoundGroup.STONE).noCollision().breakInstantly().nonOpaque()));
+
     public static final Block DEEPSLATE_RANDOMITE_ORE = registerBlock("deepslate_randomite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
     public static final Block RANDOM_PLANKS = registerBlock("random_planks",

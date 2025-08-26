@@ -3,6 +3,9 @@
 
   "item.randommod.random_meat_cooked": "Cooked Random Meat",
   "item.randommod.random_meat_raw": "Raw Random Meat",
+  "item.randommod.cocaine": "Crack Cocaine",
+
+
 
   "item.randommod.randomite_pickaxe": "Randomite Pickaxe",
   "item.randommod.randomite_axe": "Randomite Axe",
@@ -22,6 +25,8 @@
   "block.randommod.random_leaves" : "Random Leaves",
   "block.randommod.random_log" : "Random Log",
   "block.randommod.random_sapling" : "Random Sapling",
+  "block.randommod.cocaine_rock": "Rock Cocaine",
+
 
 
 

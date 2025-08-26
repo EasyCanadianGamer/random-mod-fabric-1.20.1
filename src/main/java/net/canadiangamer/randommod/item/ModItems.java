@@ -12,9 +12,11 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item RANDOMITE_INGOT = registerItem("randomite_ingot", new Item(new FabricItemSettings()));
 
-    public static final Item RANDOM_MEAT_COOKED = registerItem("random_meat_cooked", new Item(new FabricItemSettings().food(ModFoodComponents.RANDOM_MEAT_COOKED)));
+;
 
+    public static final Item RANDOM_MEAT_COOKED = registerItem("random_meat_cooked", new Item(new FabricItemSettings().food(ModFoodComponents.RANDOM_MEAT_COOKED)));
     public static final Item RANDOM_MEAT_RAW = registerItem("random_meat_raw", new Item(new FabricItemSettings().food(ModFoodComponents.RANDOM_MEAT_RAW)));
+    public static final Item COCAINE = registerItem("cocaine", new CocaineItem(new FabricItemSettings().food(ModFoodComponents.COCAINE)));
 
 
     public static final Item RANDOMITE_PICKAXE = registerItem("randomite_pickaxe",
