@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cocaine",
+  "ingredients": [
+    {
+      "item": "randommod:cocaine_rock"
+    }
+  ],
+  "result": {
+    "id": "randommod:cocaine",
+    "count": 4
+  }
+}

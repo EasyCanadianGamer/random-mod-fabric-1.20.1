@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "airpods",
+  "ingredients": [
+    {
+      "item": "randommod:airpods"
+    },
+    {
+      "item": "randommod:airpod_case_empty"
+    }
+  ],
+  "result": {
+    "id": "randommod:airpod_case",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "randomite_ingot",
+  "ingredients": [
+    {
+      "item": "randommod:randomite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "randommod:randomite_ingot"
+  }
+}

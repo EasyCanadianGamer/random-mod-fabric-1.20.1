@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "randommod:randomite_helmet",
+    "randommod:randomite_chestplate",
+    "randommod:randomite_leggings",
+    "randommod:randomite_boots"
+  ]
+}

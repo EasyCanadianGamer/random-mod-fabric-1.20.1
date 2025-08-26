@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.canadiangamer.mixin",
+	"package": "net.canadiangamer.randommod.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
