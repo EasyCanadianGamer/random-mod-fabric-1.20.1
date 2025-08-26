@@ -12,7 +12,10 @@ import java.util.function.Supplier;
 public enum ModArmorMaterials implements ArmorMaterial {
 
     RANDOMITE("randomite_ingot", 200, new int[] { 9, 24, 18, 9 }, 19,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 20f, 0.5f, () -> Ingredient.ofItems(ModItems.RANDOMITE_INGOT));
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 20f, 0.5f, () -> Ingredient.ofItems(ModItems.RANDOMITE_INGOT)),AIRPODS("airpods", 5, new int[] { 1, 0, 0, 0 }, 15,
+    SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f, 0.0f,
+            () -> Ingredient.ofItems(ModItems.AIRPOD_CASE_EMPTY));
+
 
     private final String name;
     private final int durabilityMultiplier;

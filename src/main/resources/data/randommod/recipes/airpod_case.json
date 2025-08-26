@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "randommod:airpods"
+    },
+    {
+      "item": "randommod:airpod_case_empty"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "randommod:airpod_case"
+  }
+}

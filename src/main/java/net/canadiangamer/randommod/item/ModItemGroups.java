@@ -19,6 +19,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.random_ingot"))
                     .icon(() -> new ItemStack(ModItems.RANDOMITE_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RANDOMITE_INGOT);
+                        entries.add(ModItems.AIRPOD_CASE);
+                        entries.add(ModItems.AIRPOD_CASE_EMPTY);
 
                         entries.add(ModItems.RANDOM_MEAT_COOKED);
                         entries.add(ModItems.RANDOM_MEAT_RAW);
@@ -30,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RANDOMITE_HOE);
                         entries.add(ModItems.RANDOMITE_SHOVEL);
 
+                        entries.add(ModItems.AIRPODS);
                         entries.add(ModItems.RANDOMITE_HELMET);
                         entries.add(ModItems.RANDOMITE_CHESTPLATE);
                         entries.add(ModItems.RANDOMITE_LEGGINGS);
