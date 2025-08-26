@@ -1,38 +1,34 @@
 {
 	"schemaVersion": 1,
 	"id": "randommod",
-	"version": "2.0.2 Beta",
-	"name": "Random Mod",
-	"description": "A Random Mod that adds Random things",
+	"version": "${version}",
+	"name": "RandomMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Canadian Gamer"
+		"Me!"
 	],
 	"contact": {
-		"homepage": "https://modrinth.com/mod/randommod",
-		"sources": "https://github.com/EasyCanadianGamer/random-mod-template-1.20.1"
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "MIT",
+	"license": "CC0-1.0",
 	"icon": "assets/randommod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.canadiangamer.randommod.RandomMod"
+			"net.canadiangamer.RandomMod"
 		],
-		"client": [
-			"net.canadiangamer.randommod.RandomModClient"
-		],
-
 		"fabric-datagen": [
-			"net.canadiangamer.randommod.RandomModDataGenerator"
+			"net.canadiangamer.RandomModDataGenerator"
 		]
 	},
 	"mixins": [
 		"randommod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.14.21",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
