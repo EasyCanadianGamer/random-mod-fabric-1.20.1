@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "randommod:block/random_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "randommod:block/random_log"
+    },
+    "axis=z": {
+      "model": "randommod:block/random_log_horizontal",
+      "x": 90
+    }
+  }
+}
