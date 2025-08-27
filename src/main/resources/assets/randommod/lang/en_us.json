@@ -25,10 +25,10 @@
   "block.randommod.randomite_block" : "Block of Random",
   "block.randommod.randomite_ore" : "Randomite Ore",
   "block.randommod.deepslate_randomite_ore": "Deepslate Randomite Ore",
-  "block.randommod.random_planks" : "Random Planks",
-  "block.randommod.random_leaves" : "Random Leaves",
-  "block.randommod.random_log" : "Random Log",
-  "block.randommod.random_sapling" : "Random Sapling",
+  "block.randommod.randomwood_planks" : "RandomWood Planks",
+  "block.randommod.randomwood_leaves" : "RandomWood Leaves",
+  "block.randommod.randomwood_log" : "RandomWood Log",
+  "block.randommod.randomwood_sapling" : "RandomWood Sapling",
   "block.randommod.cocaine_rock": "Rock Cocaine",
 
 

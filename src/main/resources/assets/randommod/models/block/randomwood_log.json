@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "randommod:block/randomwood_log_top",
+    "side": "randommod:block/randomwood_log"
+  }
+}

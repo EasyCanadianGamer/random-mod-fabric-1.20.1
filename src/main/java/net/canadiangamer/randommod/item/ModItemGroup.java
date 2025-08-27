@@ -39,10 +39,10 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.RANDOMITE_BLOCK);
                         entries.add(ModBlocks.RANDOMITE_ORE);
-                        entries.add(ModBlocks.RANDOM_PLANKS);
-                        entries.add(ModBlocks.RANDOM_LOG);
-                        entries.add(ModBlocks.RANDOM_LEAVES);
-                        entries.add(ModBlocks.RANDOM_SAPLING);
+                        entries.add(ModBlocks.RANDOMWOOD_PLANKS);
+                        entries.add(ModBlocks.RANDOMWOOD_LOG);
+                        entries.add(ModBlocks.RANDOMWOOD_LEAVES);
+                        entries.add(ModBlocks.RANDOMWOOD_SAPLING);
                         entries.add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
                         entries.add(ModBlocks.COCAINE_ROCK);
 

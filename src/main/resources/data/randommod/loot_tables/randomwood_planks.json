@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "randommod:random_log"
+          "name": "randommod:randomwood_planks"
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "randommod:blocks/random_log"
+  "random_sequence": "randommod:blocks/randomwood_planks"
 }

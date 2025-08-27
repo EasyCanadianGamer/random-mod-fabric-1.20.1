@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cross",
   "textures": {
-    "cross": "randommod:block/random_sapling"
+    "cross": "randommod:block/randomwood_sapling"
   }
 }

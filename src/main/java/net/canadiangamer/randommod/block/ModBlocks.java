@@ -1,6 +1,7 @@
 package net.canadiangamer.randommod.block;
 
 import net.canadiangamer.randommod.RandomMod;
+import net.canadiangamer.randommod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -26,15 +27,15 @@ public class ModBlocks {
     public static final Block DEEPSLATE_RANDOMITE_ORE = registerBlock("deepslate_randomite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6 ),
                     AbstractBlock.Settings.create().strength(4f).requiresTool()));
-    public static final Block RANDOM_PLANKS = registerBlock("random_planks",
+    public static final Block RANDOMWOOD_PLANKS = registerBlock("randomwood_planks",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.WOOD).burnable().hardness(1f)));
-    public static final Block RANDOM_LEAVES = registerBlock("random_leaves",
+    public static final Block RANDOMWOOD_LEAVES = registerBlock("randomwood_leaves",
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).requiresTool()));
 
-    public static final Block RANDOM_LOG = registerBlock("random_log",
+    public static final Block RANDOMWOOD_LOG = registerBlock("randomwood_log",
             new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()));
-    public static final Block RANDOM_SAPLING = registerBlock("random_sapling",
-            new SaplingBlock( null,AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
+    public static final Block RANDOMWOOD_SAPLING = registerBlock("randomwood_sapling",
+            new SaplingBlock(ModSaplingGenerators.RANDOMWOOD,AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
 
     private static Block registerBlock(String name, Block block) {

@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "randommod:random_leaves"
+              "name": "randommod:randomwood_leaves"
             },
             {
               "type": "minecraft:item",
@@ -56,7 +56,7 @@
                   "enchantment": "minecraft:fortune"
                 }
               ],
-              "name": "randommod:random_sapling"
+              "name": "randommod:randomwood_sapling"
             }
           ]
         }
@@ -189,5 +189,5 @@
       "rolls": 1
     }
   ],
-  "random_sequence": "randommod:blocks/random_leaves"
+  "random_sequence": "randommod:blocks/randomwood_leaves"
 }

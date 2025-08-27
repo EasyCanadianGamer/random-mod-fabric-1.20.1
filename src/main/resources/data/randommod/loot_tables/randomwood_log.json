@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "randommod:random_sapling"
+          "name": "randommod:randomwood_log"
         }
       ],
       "rolls": 1
     }
   ],
-  "random_sequence": "randommod:blocks/random_sapling"
+  "random_sequence": "randommod:blocks/randomwood_log"
 }

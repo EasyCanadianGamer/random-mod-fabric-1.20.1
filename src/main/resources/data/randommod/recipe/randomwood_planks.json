@@ -4,11 +4,11 @@
   "group": "planks",
   "ingredients": [
     {
-      "item": "randommod:random_log"
+      "item": "randommod:randomwood_log"
     }
   ],
   "result": {
     "count": 4,
-    "id": "randommod:random_planks"
+    "id": "randommod:randomwood_planks"
   }
 }
