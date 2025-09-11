@@ -1,6 +1,8 @@
 package net.canadiangamer.randommod.block;
 
 import net.canadiangamer.randommod.RandomMod;
+import net.canadiangamer.randommod.block.custom.CocaineRockBlock;
+import net.canadiangamer.randommod.block.custom.TowelHangerBlock;
 import net.canadiangamer.randommod.world.tree.ModSaplingGenerators;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
@@ -21,8 +23,12 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 5),
                     AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
+    public static final Block TOWEL_HANGER = registerBlock("towelhanger",
+            new TowelHangerBlock(AbstractBlock.Settings.create().nonOpaque()));
+
+
     public static final Block COCAINE_ROCK = registerBlock("cocaine_rock",
-            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).noCollision().breakInstantly().nonOpaque()));
+            new CocaineRockBlock(AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).noCollision().breakInstantly().nonOpaque()));
 
     public static final Block DEEPSLATE_RANDOMITE_ORE = registerBlock("deepslate_randomite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6 ),

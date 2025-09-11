@@ -45,6 +45,7 @@ public class ModItemGroup {
                         entries.add(ModBlocks.RANDOMWOOD_SAPLING);
                         entries.add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
                         entries.add(ModBlocks.COCAINE_ROCK);
+                        entries.add(ModBlocks.TOWEL_HANGER);
 
                         entries.add(ModItems.RAW_RANDOMITE);
 

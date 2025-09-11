@@ -15,10 +15,10 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool pinkGarnetPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RANDOMITE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RANDOMITE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
 
+        blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.TOWEL_HANGER);
 //
 //        pinkGarnetPool.stairs(ModBlocks.PINK_GARNET_STAIRS);
 //        pinkGarnetPool.slab(ModBlocks.PINK_GARNET_SLAB);

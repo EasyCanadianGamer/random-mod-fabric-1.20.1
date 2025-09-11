@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item COCAINE = registerItem("cocaine", new CocaineItem(new Item.Settings().food(ModFoodComponents.COCAINE)));
 
 
+
     public static final Item RANDOMITE_PICKAXE = registerItem("randomite_pickaxe",
             new PickaxeItem(ModToolMaterials.RANDOMITE_INGOT,  new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RANDOMITE_INGOT,2, 2f))));
 

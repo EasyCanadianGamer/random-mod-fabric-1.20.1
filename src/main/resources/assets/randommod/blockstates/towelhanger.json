@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "randommod:block/towelhanger"},
+    "facing=south": { "model": "randommod:block/towelhanger", "y": 180 },
+    "facing=west":  { "model": "randommod:block/towelhanger", "y": 270 },
+    "facing=east":  { "model": "randommod:block/towelhanger", "y": 90 }
+  }
+}
