@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "randommod:cocaine_rock"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "randommod:blocks/cocaine_rock"
+}
+

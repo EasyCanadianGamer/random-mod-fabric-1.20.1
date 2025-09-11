@@ -25,6 +25,8 @@ public class ModConfiguredFeatures {
 
     public static final RegistryKey<ConfiguredFeature<?, ?>> RANDOMWOOD_KEY = registerKey("randomwood");
 
+    public static final RegistryKey<ConfiguredFeature<?, ?>> COCAINE_ROCK_KEY = registerKey("cocaine_rock_patch");
+
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -47,6 +49,12 @@ public class ModConfiguredFeatures {
                 new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
 
                 new TwoLayersFeatureSize(1, 0, 2)).dirtProvider(BlockStateProvider.of(Blocks.STONE)).build());
+
+        register(context, COCAINE_ROCK_KEY, Feature.RANDOM_PATCH,
+                new RandomPatchFeatureConfig(4, 6, 2,
+                        PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
+                                new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.COCAINE_ROCK)),
+                                PlacedFeatures.wouldSurvive(ModBlocks.COCAINE_ROCK))));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {

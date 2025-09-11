@@ -1,6 +1,7 @@
 package net.canadiangamer.randommod;
 
 import net.canadiangamer.randommod.block.ModBlocks;
+import net.canadiangamer.randommod.fluid.ModFluids;
 import net.canadiangamer.randommod.item.ModItemGroup;
 import net.canadiangamer.randommod.item.ModItems;
 import net.canadiangamer.randommod.world.gen.ModWorldGeneration;
@@ -20,6 +21,7 @@ public class RandomMod implements ModInitializer {
         ModItems.registerModItems();
         ModItemGroup.registerItemGroups();
         ModBlocks.registerModBlocks();
+        ModFluids.registerModFluids();
 
         ModWorldGeneration.generateModWorldGen();
 

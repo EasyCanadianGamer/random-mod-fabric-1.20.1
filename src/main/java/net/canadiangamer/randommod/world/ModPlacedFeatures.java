@@ -8,8 +8,10 @@ import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.placementmodifier.CountPlacementModifier;
 import net.minecraft.world.gen.placementmodifier.HeightRangePlacementModifier;
 import net.minecraft.world.gen.placementmodifier.PlacementModifier;
 
@@ -23,6 +25,8 @@ public class ModPlacedFeatures {
 
     public static final RegistryKey<PlacedFeature> RANDOMWOOD_PLACED_KEY = registerKey("randomwood_placed");
 
+    public static final RegistryKey<PlacedFeature> COCAINE_ROCK_PLACED_KEY = registerKey("cocaine_rock_placed");
+
     public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatures = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
@@ -33,6 +37,10 @@ public class ModPlacedFeatures {
         register(context, RANDOMWOOD_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.RANDOMWOOD_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
                         PlacedFeatures.createCountExtraModifier(2, 0.1f, 2), ModBlocks.RANDOMWOOD_SAPLING));
+
+        register(context, COCAINE_ROCK_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.COCAINE_ROCK_KEY),
+                ModOrePlacement.modifiers(CountPlacementModifier.of(UniformIntProvider.create(4, 6)),
+                        PlacedFeatures.OCEAN_FLOOR_WG_HEIGHTMAP));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {

@@ -1,6 +1,7 @@
 package net.canadiangamer.randommod.item;
 
 import net.canadiangamer.randommod.RandomMod;
+import net.canadiangamer.randommod.fluid.ModFluids;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -50,6 +51,9 @@ public class ModItems {
     public static final Item RANDOMITE_BOOTS = registerItem("randomite_boots",
             new ArmorItem(ModArmorMaterials.RANDOMITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+
+    public static final Item RANDOM_WATER_BUCKET = registerItem("random_water_bucket",
+            new BucketItem(ModFluids.RANDOM_WATER, new Item.Settings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
 
 

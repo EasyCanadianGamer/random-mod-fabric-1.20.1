@@ -42,6 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RANDOMITE_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RANDOM_WATER_BUCKET, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.RANDOM_MEAT_COOKED, Models.GENERATED);
         itemModelGenerator.register(ModItems.RANDOM_MEAT_RAW, Models.GENERATED);

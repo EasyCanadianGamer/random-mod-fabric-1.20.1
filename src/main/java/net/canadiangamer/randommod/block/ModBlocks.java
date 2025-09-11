@@ -39,7 +39,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).requiresTool()));
 
     public static final Block RANDOMWOOD_LOG = registerBlock("randomwood_log",
-            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(4.0f).requiresTool()));
+            new PillarBlock(AbstractBlock.Settings.copy(Blocks.OAK_LOG).strength(4.0f)));
     public static final Block RANDOMWOOD_SAPLING = registerBlock("randomwood_sapling",
             new SaplingBlock(ModSaplingGenerators.RANDOMWOOD,AbstractBlock.Settings.copy(Blocks.OAK_SAPLING)));
 
