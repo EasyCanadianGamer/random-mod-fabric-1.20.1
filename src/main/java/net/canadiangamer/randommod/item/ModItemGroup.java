@@ -46,6 +46,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.DEEPSLATE_RANDOMITE_ORE);
                         entries.add(ModBlocks.COCAINE_ROCK);
 
+                        entries.add(ModItems.RAW_RANDOMITE);
+
 
                     }).build());
 

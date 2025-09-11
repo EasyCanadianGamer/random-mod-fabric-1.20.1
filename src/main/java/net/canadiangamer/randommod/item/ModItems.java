@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RANDOMITE_INGOT = registerItem("randomite_ingot", new Item(new Item.Settings()));
+    public static final Item RAW_RANDOMITE = registerItem("raw_randomite", new Item(new Item.Settings()));
+
     public static final Item AIRPOD_CASE = registerItem("airpod_case", new FullAirpodsCaseItem(new Item.Settings().maxCount(1)));
     public static final Item AIRPOD_CASE_EMPTY = registerItem("airpod_case_empty",new Item(new Item.Settings()));
 

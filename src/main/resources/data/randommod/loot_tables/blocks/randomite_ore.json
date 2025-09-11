@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -26,7 +26,7 @@
                   }
                 }
               ],
-              "name": "randommod:deepslate_randomite_ore"
+              "name": "randommod:randomite_ore"
             },
             {
               "type": "minecraft:item",
@@ -40,13 +40,12 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "randommod:randomite_ingot"
+              "name": "randommod:raw_randomite"
             }
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
-  ],
-  "random_sequence": "randommod:blocks/deepslate_randomite_ore"
+  ]
 }

@@ -19,6 +19,7 @@ public class ModPlacedFeatures {
     public static final RegistryKey<PlacedFeature> RANDOMITE_ORE_PLACED_KEY = registerKey("randomite_ore_placed");
 //    public static final RegistryKey<PlacedFeature> NETHER_PINK_GARNET_ORE_PLACED_KEY = registerKey("nether_pink_garnet_ore_placed");
 //    public static final RegistryKey<PlacedFeature> END_PINK_GARNET_ORE_PLACED_KEY = registerKey("end_pink_garnet_ore_placed");
+//    public static final RegistryKey<PlacedFeature> ROCKCOCAINE_PLACED_KEY = registerKey("rockcocaine_placed");
 
     public static final RegistryKey<PlacedFeature> RANDOMWOOD_PLACED_KEY = registerKey("randomwood_placed");
 

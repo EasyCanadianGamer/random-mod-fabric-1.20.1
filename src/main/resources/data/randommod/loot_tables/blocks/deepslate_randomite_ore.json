@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "bonus_rolls": 0,
+      "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -26,11 +26,20 @@
                   }
                 }
               ],
-              "name": "randommod:randomite_ore"
+              "name": "randommod:deepslate_randomite_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 7.0,
+                    "min": 3.0
+                  },
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",
@@ -40,13 +49,12 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "randommod:randomite_ore"
+              "name": "randommod:raw_randomite"
             }
           ]
         }
       ],
-      "rolls": 1
+      "rolls": 1.0
     }
-  ],
-  "random_sequence": "randommod:blocks/randomite_ore"
+  ]
 }
